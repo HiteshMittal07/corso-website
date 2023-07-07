@@ -1,0 +1,50 @@
+// Font
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+$primary:#f8b547;
+$secondary:#35353a;
+$light:#fbf9f5;
+$body-bg:$light;
+
+
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12,
+    ) !default;
+
+$line-height-base: 1.7;
+$headings-margin-bottom: $spacer * 1;
+
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+
+$navbar-dark-color: #fff;
+
+$Button-radius: 50px;
+$Button-padding-x: 30px;
+$Button-padding-y: 10px;
+
+$btn-border-radius: $Button-radius;
+$btn-border-radius-sm: $Button-radius;
+$btn-border-radius-lg: $Button-radius;
+
+$btn-padding-x: $Button-padding-x;
+$btn-padding-y: $Button-padding-y;
+$btn-padding-x-sm: $Button-padding-x;
+$btn-padding-y-sm: $Button-padding-y;
+$btn-padding-x-lg: $Button-padding-x;
+$btn-padding-y-lg: $Button-padding-y;
+
+$navbar-toggler-border-radius: 5px;
+
+$headings-font-weight: bold;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
